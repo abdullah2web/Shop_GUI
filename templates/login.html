@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="../static/favicon.png" type="image/x-icon">
+    <title>Shop - Login</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="logo">SHOP</li>
+          <li><a class="link" href="home.html">Home</a></li>
+          <li><a class="link" href="cart.html">Cart</a></li>
+          <li><a class="link" href="account.html">Account</a></li>
+          <li><a class="link" href="home.html">Logout</a></li>
+          <li><a class="link active" href="login.html">LogIn</a></li>
+          <li><a class="link" href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h1 class="title">Login</h1>
+            <div class="product-grid">
+                <div class="card">
+                    <form method="POST" action="">
+                        <div>
+                            <img src="../static/user.png">
+                        </div>
+                        <div class="row">
+                            <input class="bar" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="row">
+                            <input class="bar" type="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="row">
+                            <input type="checkbox"> <label for="remember">Remember Me</label>
+                        </div>
+                        <div class="row">
+                            <input class="submit" type="submit" value="LogIn">
+                        </div>
+                        <div class="row">
+                            <div class="ancor">
+                                <a href="reset.html">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="ancor">
+                        <p>Don't have an account? <a href="register.html">Rigister</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+      <p><span class="logo">SHOP</span>&copy; All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
